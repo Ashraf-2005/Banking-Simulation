@@ -6,9 +6,12 @@ import java.sql.SQLException;
 
     public class DBconnections {
         public static void main(String[] args) {
-            String url = "jdbc:mysql://localhost:3306/bankingdb"; // database name
-            String user = "root"; // your MySQL username
-            String password = "Ashraf@2005"; // your MySQL password
+            String url = "jdbc:mysql://bankingdb-mdashraf-3d6a.g.aivencloud.com:24859/defaultdb"
+        + "?sslMode=VERIFY_CA"
+        + "&trustCertificateKeyStoreUrl=file:C:/Users/CSE%20LAB%202/Documents/New%20folder/Banking-Simulation/aiven-truststore.jks"
+        + "&trustCertificateKeyStorePassword=changeit";
+            String user = "avnadmin";
+            String password = System.getenv("AIVEN_DB_PASSWORD");
 
             try {
                 Connection conn = DriverManager.getConnection(url, user, password);

@@ -104,7 +104,7 @@ public class mainbank {
 
                 case 0:
                     System.out.println("Exiting... Thank you!");
-                    break;
+                    return;
 
                 default:
                     System.out.println("Invalid option! Try again.");

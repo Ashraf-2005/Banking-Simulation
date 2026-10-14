@@ -11,3 +11,6 @@
 [2025-10-24 20:28:23] 💰 Deposited ₹100.0 into Account No: 2005
 [2025-10-27 20:24:06] 🟢 New account created: raj (3456) | Email: rajofficl@gmail.com | Phone: 9087435673
 [2025-11-05 21:58:41] 🟢 New account created: selva (2006) | Email: poorayersuriya@gmail.com | Phone: 	6381044622
+[2026-10-14 13:38:04] ❌ Error creating account (1234): Table 'defaultdb.accounts' doesn't exist
+[2026-10-14 14:19:33] ❌ Deposit error (1234): Access denied for user 'avnadmin'@'47.247.176.46' (using password: YES)
+[2026-10-14 14:26:11] 🟢 New account created: Dinesh (8778) | Email: dinesh@gmail.com | Phone: 8778169902
