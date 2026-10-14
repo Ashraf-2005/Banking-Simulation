@@ -10,8 +10,10 @@ import java.sql.SQLException;
         + "?sslMode=VERIFY_CA"
         + "&trustCertificateKeyStoreUrl=file:C:/Users/CSE%20LAB%202/Documents/New%20folder/Banking-Simulation/aiven-truststore.jks"
         + "&trustCertificateKeyStorePassword=changeit";
-            String user = "avnadmin";
-            String password = System.getenv("AIVEN_DB_PASSWORD");
+        String user = "avnadmin";
+
+        String password = System.getenv("AIVEN_DB_PASSWORD");
+
 
             try {
                 Connection conn = DriverManager.getConnection(url, user, password);
